@@ -3,10 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdMob Integration</title>
+    <title>xbook apps - Competitive Examination Preparation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+            max-width: 800px;
+            width: 90%;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #4a6bf5;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #2d3748;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #4a5568;
+            margin-bottom: 2rem;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: calc(33.333% - 1rem);
+            min-width: 200px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature h3 {
+            color: #4a6bf5;
+            margin-bottom: 0.75rem;
+        }
+        
+        .cta {
+            margin-top: 2.5rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #4a6bf5;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #3451cb;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(74, 107, 245, 0.2);
+        }
+        
+        footer {
+            margin-top: 2rem;
+            font-size: 0.875rem;
+            color: #718096;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem;
+            }
+            
+            .features {
+                flex-direction: column;
+            }
+            
+            .feature {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>AdMob Integration</h1>
-    <p>This site hosts the app-ads.txt file needed for AdMob verification.</p>
+    <div class="container">
+        <div class="logo">xbook apps</div>
+        <h1>Your Partner for Competitive Examination Preparation</h1>
+        <p class="tagline">Comprehensive learning solutions designed to help you excel in competitive exams</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>Comprehensive Content</h3>
+                <p>Access detailed study materials covering all exam topics</p>
+            </div>
+            <div class="feature">
+                <h3>Practice Tests</h3>
+                <p>Test your knowledge with our vast question bank and mock exams</p>
+            </div>
+            <div class="feature">
+                <h3>Performance Analytics</h3>
+                <p>Track your progress and identify improvement areas</p>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <a href="#" class="cta-button">Download Now</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 xbook apps. All rights reserved.</p>
+        <p><small>This site hosts the app-ads.txt file needed for AdMob verification.</small></p>
+    </footer>
 </body>
 </html> 
